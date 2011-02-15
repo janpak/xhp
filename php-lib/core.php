@@ -22,7 +22,7 @@ abstract class :x:base {
   abstract public function setAttribute($attr, $val);
   abstract public function categoryOf($cat);
   abstract public function __toString();
-  abstract protected static function &__xhpAttributeDeclaration();
+  protected static function &__xhpAttributeDeclaration(){}
   abstract protected function &__xhpCategoryDeclaration();
   abstract protected function &__xhpChildrenDeclaration();
 
